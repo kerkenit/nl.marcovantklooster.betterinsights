@@ -1,0 +1,124 @@
+{
+	"id": "nl.marcovantklooster.betterinsights",
+	"name": {
+		"en": "Better Insights",
+		"nl": "Betere Inzichten"
+	},
+	"version": "0.5.0",
+	"compatibility": "0.x || 1.x",
+	"author": {
+		"name": "Marco van 't Klooster",
+		"email": "info@marcovantklooster.nl"
+	},
+	"flow": {
+		"actions": [{
+			"id": "text",
+			"title": {
+				"en": "Log text to Insights",
+				"nl": "Meld tekst aan Inzichten"
+			},
+			"args": [{
+				"name": "title",
+				"type": "text",
+				"value": "",
+				"placeholder": {
+					"en": "Title of the Log",
+					"nl": "Titel van de Log"
+				}
+			}]
+		}, {
+			"id": "truefalse",
+			"title": {
+				"en": "Log True/False to Insights",
+				"nl": "Meld Waar/Onwaar aan Inzichten"
+			},
+			"args": [{
+				"name": "title",
+				"type": "text",
+				"value": "",
+				"placeholder": {
+					"en": "Title of the Log",
+					"nl": "Titel van de Log"
+				}
+			}, {
+				"name": "boolean",
+				"type": "dropdown",
+				"values": [{
+					"id": "true",
+					"label": {
+						"en": "True",
+						"nl": "Waar"
+					}
+				}, {
+					"id": "false",
+					"label": {
+						"en": "False",
+						"nl": "Onwaar"
+					}
+				}]
+			}]
+		}, {
+			"id": "yesno",
+			"title": {
+				"en": "Log Yes/No to Insights",
+				"nl": "Meld Ja/Nee aan Inzichten"
+			},
+			"args": [{
+				"name": "title",
+				"type": "text",
+				"value": "",
+				"placeholder": {
+					"en": "Title of the Log",
+					"nl": "Titel van de Log"
+				}
+			}, {
+				"name": "boolean",
+				"type": "dropdown",
+				"values": [{
+					"id": "true",
+					"label": {
+						"en": "Yes",
+						"nl": "Ja"
+					}
+				}, {
+					"id": "false",
+					"label": {
+						"en": "No",
+						"nl": "Nee"
+					}
+				}]
+			}]
+		}, {
+			"id": "onoff",
+			"title": {
+				"en": "Log On/Off to Insights",
+				"nl": "Meld Aan/Uit aan Inzichten"
+			},
+			"args": [{
+				"name": "title",
+				"type": "text",
+				"value": "",
+				"placeholder": {
+					"en": "Title of the Log",
+					"nl": "Titel van de Log"
+				}
+			}, {
+				"name": "boolean",
+				"type": "dropdown",
+				"values": [{
+					"id": "true",
+					"label": {
+						"en": "On",
+						"nl": "Aan"
+					}
+				}, {
+					"id": "false",
+					"label": {
+						"en": "off",
+						"nl": "Uit"
+					}
+				}]
+			}]
+		}]
+	}
+}
